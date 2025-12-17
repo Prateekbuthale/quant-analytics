@@ -18,8 +18,16 @@ While the application runs locally, the architecture is intentionally designed t
 
 ```bash
 git clone <repository-url>
-cd quant-analytics-dashboard
+cd quant-analytics
 
+```
+### Single Command
+```bash
+./run.sh
+```
+
+OR
+```bash
 python -m venv .venv
 source .venv/bin/activate   # Linux/macOS
 .\.venv\Scripts\Activate.ps1  # Windows
